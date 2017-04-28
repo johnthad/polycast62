@@ -1,0 +1,15 @@
+{
+  "name": "polymer-redux-async",
+  "version": "1.0.0",
+  "description": "Revised Polycast #62 for Polymer 2.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  }
+}

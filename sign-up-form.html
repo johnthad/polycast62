@@ -27,9 +27,7 @@
   </template>
 
   <script>
-    class ThunkMixin extends AsyncActionsMixin(Polymer.Element) {};
-
-    class SignUpForm extends ReduxMixin(ThunkMixin) {
+    class SignUpForm extends ReduxMixin(AsyncActionsMixin(Polymer.Element)) {
 
       static get is() { return 'sign-up-form'; }
 
